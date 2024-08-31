@@ -8,7 +8,7 @@ interface WeatherData{
   humidity:number,
   wind_speed:number,
 }
-function page() {
+function Page() {
 
     const {id}= useParams()
 const [weather, setweather]=useState<WeatherData | null >(null)
@@ -72,4 +72,4 @@ Weather Report
   )
 }
 
-export default page
+export default Page
